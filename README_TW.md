@@ -7,7 +7,7 @@ RNNFMDB
 ![Platform info](http://img.shields.io/cocoapods/p/RNNFMDB.svg?style=flat)
 [![Language](http://img.shields.io/badge/language-OC-brightgreen.svg?style=flat
 )](https://en.wikipedia.org/wiki/Objective-C)
-[![Build Status](https://api.travis-ci.org/iterrypeng/RNNFMDB.svg?branch=master)](https://travis-ci.org/iterrypeng/RNNFMDB)
+[![Build Status](https://api.travis-ci.org/iterrypeng/RNNFMDB.svg?branch=master)](https://travis-ci.org/renningning88/RNNFMDB)
 ##其他語言版本
 [English](README.md) [簡體中文](README_ZH.md)
 ## 程序介紹

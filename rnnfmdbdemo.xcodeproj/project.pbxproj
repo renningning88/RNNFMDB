@@ -23,8 +23,11 @@
 		3BC3DD5D1C813FF900B539F4 /* RNNFMDB.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BC3DD531C813FF900B539F4 /* RNNFMDB.m */; };
 		3BC3DD5E1C813FF900B539F4 /* RNNStructure.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BC3DD551C813FF900B539F4 /* RNNStructure.m */; };
 		3BC3DD5F1C813FF900B539F4 /* RNNTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BC3DD571C813FF900B539F4 /* RNNTable.m */; };
-		3BC3DD611C8140AB00B539F4 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BC3DD601C8140AB00B539F4 /* libsqlite3.0.tbd */; };
 		3BC3DD641C81410600B539F4 /* CarTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BC3DD631C81410600B539F4 /* CarTable.m */; };
+		3BC3DD661C8144B500B539F4 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BC3DD651C8144B500B539F4 /* libsqlite3.0.tbd */; };
+		3BC3DD6A1C81453E00B539F4 /* README_TW.md in Sources */ = {isa = PBXBuildFile; fileRef = 3BC3DD671C81453E00B539F4 /* README_TW.md */; };
+		3BC3DD6B1C81453E00B539F4 /* README_ZH.md in Sources */ = {isa = PBXBuildFile; fileRef = 3BC3DD681C81453E00B539F4 /* README_ZH.md */; };
+		3BC3DD6C1C81453E00B539F4 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 3BC3DD691C81453E00B539F4 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,9 +81,12 @@
 		3BC3DD551C813FF900B539F4 /* RNNStructure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNNStructure.m; sourceTree = "<group>"; };
 		3BC3DD561C813FF900B539F4 /* RNNTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNNTable.h; sourceTree = "<group>"; };
 		3BC3DD571C813FF900B539F4 /* RNNTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNNTable.m; sourceTree = "<group>"; };
-		3BC3DD601C8140AB00B539F4 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.text-based-dylib-definition"; path = libsqlite3.0.tbd; sourceTree = "<group>"; };
 		3BC3DD621C81410600B539F4 /* CarTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarTable.h; sourceTree = "<group>"; };
 		3BC3DD631C81410600B539F4 /* CarTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarTable.m; sourceTree = "<group>"; };
+		3BC3DD651C8144B500B539F4 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		3BC3DD671C81453E00B539F4 /* README_TW.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README_TW.md; sourceTree = "<group>"; };
+		3BC3DD681C81453E00B539F4 /* README_ZH.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README_ZH.md; sourceTree = "<group>"; };
+		3BC3DD691C81453E00B539F4 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,7 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3BC3DD611C8140AB00B539F4 /* libsqlite3.0.tbd in Frameworks */,
+				3BC3DD661C8144B500B539F4 /* libsqlite3.0.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,7 +118,10 @@
 		3BC3DD061C813F5700B539F4 = {
 			isa = PBXGroup;
 			children = (
-				3BC3DD601C8140AB00B539F4 /* libsqlite3.0.tbd */,
+				3BC3DD671C81453E00B539F4 /* README_TW.md */,
+				3BC3DD681C81453E00B539F4 /* README_ZH.md */,
+				3BC3DD691C81453E00B539F4 /* README.md */,
+				3BC3DD651C8144B500B539F4 /* libsqlite3.0.tbd */,
 				3BC3DD451C813FF900B539F4 /* FMDB */,
 				3BC3DD511C813FF900B539F4 /* RNNFMDB */,
 				3BC3DD111C813F5700B539F4 /* rnnfmdbdemo */,
@@ -348,6 +357,9 @@
 				3BC3DD581C813FF900B539F4 /* FMDatabase.m in Sources */,
 				3BC3DD5C1C813FF900B539F4 /* FMResultSet.m in Sources */,
 				3BC3DD591C813FF900B539F4 /* FMDatabaseAdditions.m in Sources */,
+				3BC3DD6A1C81453E00B539F4 /* README_TW.md in Sources */,
+				3BC3DD6C1C81453E00B539F4 /* README.md in Sources */,
+				3BC3DD6B1C81453E00B539F4 /* README_ZH.md in Sources */,
 				3BC3DD5D1C813FF900B539F4 /* RNNFMDB.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

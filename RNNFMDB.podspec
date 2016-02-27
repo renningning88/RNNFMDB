@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "RNNFMDB"
-  s.version      = "0.0.1"
+  s.version      = "0.0.3"
   s.summary      = "Operations library of sqlite base on FMDB"
   s.homepage     = "https://github.com/renningning88/PYFMDB"
   s.license      = "MIT"

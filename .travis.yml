@@ -1,8 +1,8 @@
 language: objective-c
 osx_image: xcode7.1
-xcode_project: rnnfmdbdemo/rnnfmdbdemo.xcodeproj
+xcode_project: rnnfmdbdemo.xcodeproj
 xcode_scheme: rnnfmdbdemo
 before_install:
-    - mkdir -p "rnnfmdbdemo/rnnfmdbdemo.xcodeproj/xcshareddata/xcschemes" && cp rnnfmdbdemo/rnnfmdbdemoTests/Schemes/*.xcscheme "rnnfmdbdemo/rnnfmdbdemo.xcodeproj/xcshareddata/xcschemes/"
+    - mkdir -p "rnnfmdbdemo.xcodeproj/xcshareddata/xcschemes" && cp rnnfmdbdemoTests/Schemes/*.xcscheme "rnnfmdbdemo.xcodeproj/xcshareddata/xcschemes/"
 script:
- - xctool -project rnnfmdbdemo/rnnfmdbdemo.xcodeproj -scheme rnnfmdbdemo  ONLY_ACTIVE_ARCH=NO build  CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO
+ - xctool -project rnnfmdbdemo.xcodeproj -scheme rnnfmdbdemo  ONLY_ACTIVE_ARCH=NO build  CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO
